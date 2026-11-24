@@ -1,0 +1,16 @@
+import React, { useEffect, useState } from "react";
+import axios from "axios"; // npm install axios
+function GitHub() {
+  const [data, setData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("greg");
+
+  useEffect(() => {
+    axios.get("https://api.github.com/search/users?q=greg").then((res) => {
+      //console.log(res.data.items);
+      setData(res.data.items);
+    });
+  }, []);
+
+  return <div></div>;
+}
+export default GitHub;
