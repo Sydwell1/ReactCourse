@@ -1,0 +1,17 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "finishing writing hooks 2"
+    },
+    {
+      "id": "2",
+      "text": "play with kids"
+    },
+    {
+      "id": "8miCdRa8Luw",
+      "text": "awe"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
